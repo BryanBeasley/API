@@ -1,5 +1,5 @@
 body {
-  background-color: orangered;
+  background-color: #747384;
   margin: 0;
   font-family: "DotGothic16", sans-serif;
   color: white;
@@ -8,29 +8,13 @@ body {
 .card {
   list-style: none;
   padding: 40px;
-  background-color: #f4f4f4;
+  background-color: #53883A;
   color: #222;
   text-align: center;
+  border-radius: 50%;
 }
 
-.card:hover {
-  animation: bounce 0.5s linear;
-}
 
-@keyframes bounce {
-  20% {
-    transform: translateY(-6px);
-  }
-  40% {
-    transform: translateY(0px);
-  }
-  60% {
-    transform: translateY(-2px);
-  }
-  80% {
-    transform: translateY(-0px);
-  }
-}
 
 .card-title {
   text-transform: uppercase;
@@ -40,7 +24,7 @@ body {
 
 .card-subtitle {
   font-weight: lighter;
-  color: #666;
+  color: #12470E;
   margin-top: 5px;
 }
 
